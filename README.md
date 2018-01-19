@@ -51,7 +51,7 @@ My current research interests include, but are not limited to:
         The 15th Meeting of the European Chapter of the Association of Computational Linguistics,
         Valencia, Spain, April, 2017.
 	<a href="publications/analysisCR.pdf">Paper</a>
-	<a href="publications/EACLPoster(Analysis).pdf">Poster</a>
+	<a href="publications/EACL Poster (Analysis).pdf">Poster</a>
 
 </LI>
 <br>
@@ -59,7 +59,7 @@ My current research interests include, but are not limited to:
         <em>Bootstrapping Unsupervised Bilingual Lexicon Induction</em>
         The 15th Meeting of the European Chapter of the Association of Computational Linguistics,
         Valencia, Spain, April, 2017
-        <a href="publications/EACLPoster(Induction)">Paper</a>
+        <a href="publications/EACL Poster (Induction)">Paper</a>
 
 </LI>
 <br>
