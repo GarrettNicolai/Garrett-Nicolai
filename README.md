@@ -43,6 +43,7 @@ My current research interests include, but are not limited to:
         <em>If you can’t beat them, join them: the University of Alberta system description</em>
         Proceedings of the CoNLL SIGMORPHON 2017 Shared Task: Universal Morphological Reinflection.
         Vancouver, Canada, August, 2017.
+	<a href="publications/UA2017ST.pdf">Paper</a>
 </LI>
 
 <LI>    Garrett Nicolai, and Grzegorz Kondrak
