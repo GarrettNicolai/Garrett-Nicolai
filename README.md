@@ -59,7 +59,9 @@ My current research interests include, but are not limited to:
         <em>Bootstrapping Unsupervised Bilingual Lexicon Induction</em>
         The 15th Meeting of the European Chapter of the Association of Computational Linguistics,
         Valencia, Spain, April, 2017
-        <a href="publications/EACL Poster (Induction)">Paper</a>
+        <a href="publications/selftrain.pdf">Paper</a>
+	<a href="publications/EACL Poster (Induction).pdf">Poster</a>
+
 
 </LI>
 <br>
