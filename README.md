@@ -45,19 +45,21 @@ My current research interests include, but are not limited to:
         Vancouver, Canada, August, 2017.
 	<a href="publications/UA2017ST.pdf">Paper</a>
 </LI>
-
+<br>
 <LI>    Garrett Nicolai, and Grzegorz Kondrak
         <em>Morphological Analysis without Expert Annotation</em>
         The 15th Meeting of the European Chapter of the Association of Computational Linguistics,
         Valencia, Spain, April, 2017.
 	<a href="publications/analysisCR.pdf">Paper</a>
+	<a href="publications/EACLPoster(Analysis).pdf">Poster</a>
+
 </LI>
 <br>
 <LI>    Bradley Hauer, Garrett Nicolai, and Grzegorz Kondrak
         <em>Bootstrapping Unsupervised Bilingual Lexicon Induction</em>
         The 15th Meeting of the European Chapter of the Association of Computational Linguistics,
         Valencia, Spain, April, 2017
-        <a href="publications/selftrain.pdf">Paper</a>
+        <a href="publications/EACLPoster(Induction)">Paper</a>
 
 </LI>
 <br>
