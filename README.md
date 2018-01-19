@@ -19,17 +19,10 @@ perspectives in my research.
 
 <h2> Research Interests</h2>
 My current research interests include, but are not limited to:
-<br><LI> The application of Linguistic methods to computational analysis of natural language. </LI>
-<br><LI> Inflectional processes, particularly with respect
-to analysis and generation of words.</LI>
-
-<br>
+<LI> The application of Linguistic methods to computational analysis of natural language. </LI>
+<LI> Inflectional processes, particularly with respect to analysis and generation of words.</LI>
 <LI> Low-data settings, and how they impact traditional transduction methods </LI>
-
-<br>
 <LI> Phonological processes, and how they interact with morphology.</LI>
-
-<br>
 <LI> Language interaction, be it L1 interference, cognates, or translation.</LI>
 
 
