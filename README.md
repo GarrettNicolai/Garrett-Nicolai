@@ -42,6 +42,7 @@ to analysis and generation of words.</LI>
         <em>If you can’t beat them, join them: the University of Alberta system description</em>
         Proceedings of the CoNLL SIGMORPHON 2017 Shared Task: Universal Morphological Reinflection.
         Vancouver, Canada, August, 2017.
+</LI>
 
 <LI>    Garrett Nicolai, and Grzegorz Kondrak
         <em>Morphological Analysis without Expert Annotation</em>
