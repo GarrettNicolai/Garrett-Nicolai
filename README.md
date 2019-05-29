@@ -35,6 +35,37 @@ My current research interests include, but are not limited to:
 <h2> Publications</h2>
 
 <h3> Computational Linguistics </h3>
+
+2019
+<LI>   Garrett Nicolai and David Yarowsky
+       <em> Learning Morphosyntactic Analyzers from the Bible via Iterative Annotation Projection across 26 Languages </em>
+       Proceedings of the 57th Annual Meeting of the Association for Compuational Linguistics (To Appear)
+       Florence, Italy, July, 2019.
+</LI>
+
+<br>
+<br>
+<br>
+2018
+
+<LI>    Garrett Nicolai, Saeed Najafi, and Grzegorz Kondrak
+	<em> String Transduction with Target Language Models and Insertion Handling </em>
+	Proceedings of the Fifteenth Workshop on Computational Research in Morphology, Phonology, and Phonetics.
+	Brussels, Belgium, October, 2018.
+	
+</LI>
+<br>
+<LI>    Ryan Cotterell, Christo Kirov, John Sylak-Glassman, Géraldine Walther, Ekaterina Vylomova, Arya D. McCarthy, Katharina Kann, Sebastian Mielke, Garrett Nicolai, Miikka Silfverberg, David Yarowsky, Jason Eisner, and Mans Hulden
+	<em> The CoNLL--SIGMORPHON 2018 Shared Task: Universal Morphological Reinflection </em>
+	Proceedings of the CoNLL--SIGMORPHON 2018 Shared Task: Universal Morphological Reinflection
+	Brussels, Belgium, October, 2018.
+	
+</LI>
+
+<br>
+<br>
+<br>
+
 2017
 <br>
 <br>
