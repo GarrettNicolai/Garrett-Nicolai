@@ -45,7 +45,7 @@ My current research interests include, but are not limited to:
        Proceedings of the 57th Annual Meeting of the Association for Compuational Linguistics
        Florence, Italy, July, 2019.
        <a href="publications/ACL2019Projection(CR)">Paper</a>
-       <a href="publications/ACL2019">AppendixAppendix(CR)</a>
+       <a href="publications/ProjectionAppendix(CR)">Appendix</a>
 
 </LI>
 
