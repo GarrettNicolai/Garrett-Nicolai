@@ -13,7 +13,8 @@ I'm a post-doctoral fellow under the supervision of
 <A HREF = "http://www.cs.jhu.edu/~yarowsky/">Dr. David Yarowsky</A>,
 doing research in natural language processing.
 <br>I have a background in AI and Linguistics, and utilize both
-perspectives in my research.
+perspectives in my research.  In January 2020, I will
+be starting a post-doc at the University of British Columbia.
 
 
 
@@ -24,7 +25,9 @@ My current research interests include, but are not limited to:
 
 <LI> Inflectional processes, particularly with respect to analysis and generation of words.</LI>
 
-<LI> Low-data settings, and how they impact traditional transduction methods </LI>
+<LI> Incorporation of morphology in downstream tasks. </LI>
+
+<LI> Low-data settings, and how they impact traditional transduction methods. </LI>
 
 <LI> Phonological processes, and how they interact with morphology.</LI>
 
@@ -39,7 +42,7 @@ My current research interests include, but are not limited to:
 2019
 <LI>   Garrett Nicolai and David Yarowsky
        <em> Learning Morphosyntactic Analyzers from the Bible via Iterative Annotation Projection across 26 Languages </em>
-       Proceedings of the 57th Annual Meeting of the Association for Compuational Linguistics (To Appear)
+       Proceedings of the 57th Annual Meeting of the Association for Compuational Linguistics
        Florence, Italy, July, 2019.
 </LI>
 
