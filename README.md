@@ -44,8 +44,8 @@ My current research interests include, but are not limited to:
        <em> Learning Morphosyntactic Analyzers from the Bible via Iterative Annotation Projection across 26 Languages </em>
        Proceedings of the 57th Annual Meeting of the Association for Compuational Linguistics
        Florence, Italy, July, 2019.
-       <a href="publications/ACL2019Projection(CR)">Paper</a>
-       <a href="publications/ProjectionAppendix(CR)">Appendix</a>
+       <a href="publications/ACL2019Projection(CR).pdf">Paper</a>
+       <a href="publications/ProjectionAppendix(CR).pdf">Appendix</a>
 
 </LI>
 
