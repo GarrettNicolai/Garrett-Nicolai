@@ -44,6 +44,9 @@ My current research interests include, but are not limited to:
        <em> Learning Morphosyntactic Analyzers from the Bible via Iterative Annotation Projection across 26 Languages </em>
        Proceedings of the 57th Annual Meeting of the Association for Compuational Linguistics
        Florence, Italy, July, 2019.
+       <a href="publications/ACL2019Projection(CR)">Paper</a>
+       <a href="publications/ACL2019">AppendixAppendix(CR)</a>
+
 </LI>
 
 <LI>
@@ -60,6 +63,8 @@ My current research interests include, but are not limited to:
 	<em> String Transduction with Target Language Models and Insertion Handling </em>
 	Proceedings of the Fifteenth Workshop on Computational Research in Morphology, Phonology, and Phonetics.
 	Brussels, Belgium, October, 2018.
+	<a href="publications/DirecTLM.pdf">Paper</a>
+
 	
 </LI>
 <br>
