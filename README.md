@@ -46,6 +46,11 @@ My current research interests include, but are not limited to:
        Florence, Italy, July, 2019.
 </LI>
 
+<LI>
+	Arya D. McCarthy, Ekaterina Vylomova, Shijie Wu, Chaitanya Malaviya, Lawrence Wolf-Sonkin, Garrett Nicolai, Christo Kirov, Miikka Silfverberg, Sebastian J Mielke, Jeffrey Heinz, Ryan Cotterell, Mans Hulden. <em> The SIGMORPHON 2019 Shared Task: Morphological Analysis in Context and Cross-Lingual Transfer for Inflection. </em> Florence, Italy, August 2019.
+	
+</LI>
+
 <br>
 <br>
 <br>
@@ -249,4 +254,4 @@ My current research interests include, but are not limited to:
 <br>
 <br>
 <br>
-	Last Updated: May, 2019     
+	Last Updated: December, 2019     
