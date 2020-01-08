@@ -1,20 +1,27 @@
 <h1>Garrett Nicolai</h1>
 
 Post-doctoral Fellow,
-<br><A HREF="https://www.clsp.jhu.edu/"> Center for Language and Speech Processing, </A>
-<br><A HREF = "https://www.jhu.edu/">Johns Hopkins University</A>
-<br>Baltimore, Maryland,
-USA
-<br>e-mail:  <em>gnicola2 AT jhu DOT edu</em>
+<br><A HREF="https://linguistics.ubc.ca/"> Department of Linguistics, </A>
+<br><A HREF = "https://www.ubc.ca/">University of British Columbia</A>
+<br>Vancouver, British Columbia,
+Canada
+<br>e-mail:  <em>gnicolai AT mail DOT ubc DOT ca</em>
 <br><br><br>
 
 <h2> A bit about me </h2>
-I'm a post-doctoral fellow under the supervision of 
-<A HREF = "http://www.cs.jhu.edu/~yarowsky/">Dr. David Yarowsky</A>,
+I'm a post-doctoral fellow 
 doing research in natural language processing.
 <br>I have a background in AI and Linguistics, and utilize both
-perspectives in my research.  In January 2020, I will
-be starting a post-doc at the University of British Columbia.
+perspectives in my research.<br><br>
+
+I am the current Secretary for <A HREF="https://sigmorphon.github.io/"> SIGMORPHON </A>,
+and will be co-chairing our 2020 <A HREF="https://sigmorphon.github.io/workshops/"> workshop </A>. <br><br>
+
+When not in the lab, I'm an avid reader of fiction, with Historical Fiction and Horror Fiction being particular favourites. <br>
+It's pronounced /s&#601;&#183;&#712;sk&aelig;t&#643;&#183;&#601;&#183;w&#601;n/ (and those schwas are really short...), 
+not /&#712;s&aelig;&#183;&#716;sk&aelig;t&#643;&#183;&#601;&#183;&#716;w&#593;n/
+
+
 
 
 
