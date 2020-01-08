@@ -266,4 +266,4 @@ My current research interests include, but are not limited to:
 <br>
 <br>
 <br>
-	Last Updated: December, 2019     
+	Last Updated: January, 2020     
