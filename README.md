@@ -19,7 +19,9 @@ and will be co-chairing our 2020 <A HREF="https://sigmorphon.github.io/workshops
 
 When not in the lab, I'm an avid reader of fiction, with Historical Fiction and Horror Fiction being particular favourites. <br>
 It's pronounced /s&#601;&#183;&#712;sk&aelig;t&#643;&#183;&#601;&#183;w&#601;n/ (and those schwas are really short...), 
-not /&#712;s&aelig;&#183;&#716;sk&aelig;t&#643;&#183;&#601;&#183;&#716;w&#593;n/
+not /&#712;s&aelig;&#183;&#716;sk&aelig;t&#643;&#183;&#601;&#183;&#716;w&#593;n/, and the capital city is 
+/r&#601;&#183;&#712;d&#658;ai&#183;n&#601;/, not /r&#601;&#183;&#712;d&#658;i&#183;n&#601;/ or 
+/r&#601;&#183;&#712;gi&#183;n&#601;/, Latin notwithstanding.
 
 
 
