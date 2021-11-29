@@ -1,6 +1,6 @@
 <h1>Garrett Nicolai</h1>
 
-Post-doctoral Fellow,
+Assistant Professor of Teaching,
 <br><A HREF="https://linguistics.ubc.ca/"> Department of Linguistics, </A>
 <br><A HREF = "https://www.ubc.ca/">University of British Columbia</A>
 <br>Vancouver, British Columbia,
@@ -9,13 +9,13 @@ Canada
 <br><br><br>
 
 <h2> A bit about me </h2>
-I'm a post-doctoral fellow 
+I'm an Assistant Professor 
 doing research in natural language processing.
 <br>I have a background in AI and Linguistics, and utilize both
 perspectives in my research.<br><br>
 
-I am the current Secretary for <A HREF="https://sigmorphon.github.io/"> SIGMORPHON </A>,
-and will be co-chairing our 2020 <A HREF="https://sigmorphon.github.io/workshops/"> workshop </A>. <br><br>
+I am the current President for <A HREF="https://sigmorphon.github.io/"> SIGMORPHON </A>,
+and will be co-organizing our 2022 <A HREF="https://sigmorphon.github.io/workshops/"> workshop </A>. <br><br>
 
 When not in the lab, I'm an avid reader of fiction, with Historical Fiction and Horror Fiction being particular favourites. <br>
 It's pronounced /s&#601;&#183;&#712;sk&aelig;t&#643;&#183;&#601;&#183;w&#601;n/ (and those schwas are really short...), 
@@ -268,4 +268,4 @@ My current research interests include, but are not limited to:
 <br>
 <br>
 <br>
-	Last Updated: January, 2020     
+	Last Updated: November, 2021     
