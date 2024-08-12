@@ -2,11 +2,11 @@
     {
         "name": "John Doe",
         "email": "john.doe@example.com",
-        "description": "This is a low-resource project."
+        "project": "This is a low-resource project."
     },
     {
         "name": "Jane Smith",
         "email": "jane.smith@example.com",
-        "description": "This is a project that looks at the accents of non-native speakers."
+        "project": "This is a project that looks at the accents of non-native speakers."
     }
 ]
