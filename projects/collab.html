@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Two Forms Example</title>
+</head>
+<body>
+  <h1>Form 1: Enter Your Information</h1>
+  <form id="firstForm">
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name">
+    <br>
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email">
+    <br>
+    <button type="submit">Submit First Form</button>
+  </form>
+
+  <h1>Form 2: Dependent Information</h1>
+  <form id="secondForm" style="display: none;">
+    <label for="dependentField">Dependent Field:</label>
+    <input type="text" id="dependentField" name="dependentField" readonly>
+    <br>
+    <button type="submit">Submit Second Form</button>
+  </form>
+
+  <script>
+    // JavaScript to fetch data from the JSON file and populate the second form
+    fetch('data.json')
+      .then(response => response.json())
+      .then(data => {
+        const name = data.userData.name;
+        const email = data.userData.email;
+        document.getElementById('dependentField').value = `Hello, ${name} (${email})`;
+        // Show the second form since data is now available
+        document.getElementById('secondForm').style.display = 'block';
+      });
+
+    // Handling first form submission (manual process assumed)
+    const firstForm = document.getElementById('firstForm');
+    firstForm.addEventListener('submit', function(event) {
+      event.preventDefault(); // Prevent actual form submission
+      alert('Form submitted! Manually update data.json with the new values.');
+      // Normally, you'd send this data to a server or handle it another way
+    });
+  </script>
+</body>
+</html>
