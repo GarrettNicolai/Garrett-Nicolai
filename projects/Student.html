@@ -1,1 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Display JSON Data</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        .entry {
+            border: 1px solid #ddd;
+            padding: 10px;
+            margin-bottom: 10px;
+            border-radius: 5px;
+        }
+        .entry h3 {
+            margin-top: 0;
+        }
+    </style>
+</head>
+<body>
+    <h1>Entries</h1>
+    <div id="entriesContainer"></div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            // URL of the JSON file
+            const jsonUrl = 'https://garrettnicolai.github.io/Garrett-Nicolai/projects/projects.json';
+
+            // Fetch the JSON file
+            fetch(jsonUrl)
+                .then(response => response.json())
+                .then(data => {
+                    // Get the container element
+                    const container = document.getElementById('entriesContainer');
+
+                    // Check if the data is an array
+                    if (Array.isArray(data)) {
+                        data.forEach(entry => {
+                            // Create a new div element for each entry
+                            const entryDiv = document.createElement('div');
+                            entryDiv.className = 'entry';
+
+                            // Add the content to the div
+                            entryDiv.innerHTML = `
+                                <h3>${entry.name}</h3>
+                                <p><strong>Email:</strong> ${entry.email}</p>
+                                <p><strong>Message:</strong> ${entry.message}</p>
+                            `;
+
+                            // Append the new entry to the container
+                            container.appendChild(entryDiv);
+                        });
+                    } else {
+                        console.error('The JSON data is not an array.');
+                    }
+                })
+                .catch(error => {
+                    console.error('Error fetching JSON:', error);
+                });
+        });
+    </script>
+</body>
+</html>
 
