@@ -35,7 +35,6 @@
                 const data = await response.json();
 
                 if (response.ok) {
-                    sessionStorage.setItem('session_token', data.session_token);
                     window.location.href = data.url;
                 } else {
                     responseMessage.innerHTML = data.error;
