@@ -32,7 +32,7 @@
 
                 const data = await response.json();
 
-                if (response.ok) {
+                if (response.statusCode == 200) {
                     window.location.href = data.url;
                 } else {
                     responseMessage.innerHTML = data.error;
