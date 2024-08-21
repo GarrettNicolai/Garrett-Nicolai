@@ -4,6 +4,7 @@
 <script>
     window.onload = function() {
     const sessionToken = sessionStorage.getItem('PI_token');
+    console.log('On load, session token:', sessionStorage.getItem('PI_token'));
 
     if (!sessionToken) {
         // Redirect to an unauthorized access page or back to the home page
