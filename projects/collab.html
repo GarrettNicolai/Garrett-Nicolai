@@ -36,6 +36,10 @@
 
                 if (response.ok) {
                     window.location.href = data.url;
+                    if data.PI_token:
+                        sessionStorage.setItem('PI_token', data.PI_token);
+                    if data.Student_token:
+                        sessionStorage.setItem('Student_token', data.Student_token);
                 } else {
                     responseMessage.innerHTML = data.error;
                 }
