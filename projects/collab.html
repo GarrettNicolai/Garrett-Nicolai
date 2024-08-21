@@ -33,7 +33,7 @@
                 const data = await response.json();
 
                 if (response.ok) {
-                    responseMessage.innerHTML = data.url;
+                    window.location.href = data.url;
                 } else {
                     responseMessage.innerHTML = data.error;
                 }
