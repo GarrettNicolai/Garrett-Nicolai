@@ -35,12 +35,13 @@
                 const data = await response.json();
 
                 if (response.ok) {
+                    if (data.PI_token) {
+                        sessionStorage.setItem('PI_token', data.PI_token); }
+                    if (data.Student_token) {
+                        sessionStorage.setItem('Student_token', data.Student_token); }
+                
                     window.location.href = data.url;
-                    if data.PI_token:
-                        sessionStorage.setItem('PI_token', data.PI_token);
-                    if data.Student_token:
-                        sessionStorage.setItem('Student_token', data.Student_token);
-                } else {
+                    } else {
                     responseMessage.innerHTML = data.error;
                 }
             } catch (error) {
