@@ -25,6 +25,16 @@
     <div id="entriesContainer"></div>
 
     <script>
+      window.onload = function() {
+    const sessionToken = localStorage.getItem('session_token');
+
+    if (!sessionToken) {
+        // Redirect to an unauthorized access page or back to the home page
+        window.location.href = 'https://example.com/unauthorized';  // Change as needed
+    }
+};
+
+        
         document.addEventListener('DOMContentLoaded', () => {
             // URL of the JSON file
             const jsonUrl = 'https://garrettnicolai.github.io/Garrett-Nicolai/projects/projects.json';
