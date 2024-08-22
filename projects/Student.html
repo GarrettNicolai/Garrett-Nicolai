@@ -56,12 +56,24 @@
                             // Add the content to the div
                             entryDiv.innerHTML = `
                                 <h3>${entry.name}</h3>
-                                <p><strong>Email:</strong> ${entry.email}</p>
+                                if entry.email
+                                {
+                                    <p><strong>Email:</strong> ${entry.email}</p>
+                                }
                                 <p><strong>Project Description:</strong> ${entry.project}</p>
+                                if entry.skills
+                                {
+                                     <p><strong>Desired Skills:</strong> ${entry.skills}</p>
+                                }
+                                if entry.members
+                                {
+                                    <p><strong>Number of Members:</strong> ${entry.members}</p>
+                                }
                             `;
 
                             // Append the new entry to the container
                             container.appendChild(entryDiv);
+
                         });
                     } else {
                         console.error('The JSON data is not an array.');
