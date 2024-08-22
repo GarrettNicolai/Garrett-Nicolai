@@ -56,20 +56,22 @@
                             // Add the content to the div
                             entryDiv.innerHTML = `
                                 <h3>${entry.name}</h3>
-                                if entry.email
+                                
+                            `;
+
+                            if entry.email
                                 {
-                                    <p><strong>Email:</strong> ${entry.email}</p>
+                                    entryDiv.innerHTML += `<p><strong>Email:</strong> ${entry.email}</p>`;
                                 }
-                                <p><strong>Project Description:</strong> ${entry.project}</p>
+                                entryDiv.innerHTML += `<p><strong>Project Description:</strong> ${entry.project}</p>`;
                                 if entry.skills
                                 {
-                                     <p><strong>Desired Skills:</strong> ${entry.skills}</p>
+                                     entryDiv.innerHTML += `<p><strong>Desired Skills:</strong> ${entry.skills}</p>`;
                                 }
                                 if entry.members
                                 {
-                                    <p><strong>Number of Members:</strong> ${entry.members}</p>
+                                    entryDiv.innerHTML += `<p><strong>Number of Members:</strong> ${entry.members}</p>`;
                                 }
-                            `;
 
                             // Append the new entry to the container
                             container.appendChild(entryDiv);
