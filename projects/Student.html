@@ -59,16 +59,16 @@
                                 
                             `;
 
-                            if entry.email
+                            if (entry.email)
                                 {
                                     entryDiv.innerHTML += `<p><strong>Email:</strong> ${entry.email}</p>`;
                                 }
                                 entryDiv.innerHTML += `<p><strong>Project Description:</strong> ${entry.project}</p>`;
-                                if entry.skills
+                                if (entry.skills)
                                 {
                                      entryDiv.innerHTML += `<p><strong>Desired Skills:</strong> ${entry.skills}</p>`;
                                 }
-                                if entry.members
+                                if (entry.members)
                                 {
                                     entryDiv.innerHTML += `<p><strong>Number of Members:</strong> ${entry.members}</p>`;
                                 }
