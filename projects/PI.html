@@ -78,19 +78,30 @@
     <script>
 async function submitData() {
     const entryInput = document.getElementById('skills').value;
+
     
-    const data = {
-        id: Date.now(),  // Just a simple way to create a unique ID
-        data: entryInput
+    const name = document.getElementById('name').value;
+    const description = document.getElementById('project').value;
+    const email = document.getElementById('email').value || "Not specified - contact Garrett"; // Use null if empty
+    const skills = document.getElementById('skills').value || "None specified";
+    const members = document.getElementById('members').value || "Unspecified";
+
+    const newEntry = {
+        name: name,
+        description: description,
+        email: email,
+        skills: skills,
+        members: members
     };
 
     try {
+
         const response = await fetch('https://xdk59zjkt4.execute-api.us-west-2.amazonaws.com/prod/update', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'
             },
-            body: JSON.stringify(data)
+            body: JSON.stringify(newEntry)
         });
 
         const result = await response.json();
