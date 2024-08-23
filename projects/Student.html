@@ -46,6 +46,8 @@
             // Clear previous entries
             container.innerHTML = '';
 
+            console.log(data);
+
             // Check if entries exist and are an array
             if (data.entries && Array.isArray(data.entries) && data.entries.length > 0) {
                 data.entries.forEach((entry, index) => {
