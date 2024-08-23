@@ -36,55 +36,44 @@
 
         
         document.addEventListener('DOMContentLoaded', () => {
-            // URL of the JSON file
-            const jsonUrl = 'https://garrettnicolai.github.io/Garrett-Nicolai/projects/projects.json';
+    const jsonUrl = 'https://garrettnicolai.github.io/Garrett-Nicolai/projects/projects.json';
 
-            // Fetch the JSON file
-            fetch(jsonUrl)
-                .then(response => response.json())
-                .then(data => {
-                    // Get the container element
-                    const container = document.getElementById('entriesContainer');
+    fetch(jsonUrl)
+        .then(response => response.json())
+        .then(data => {
+            const container = document.getElementById('entriesContainer');
 
-                    // Check if the data is an array
-                    if (Array.isArray(data)) {
-                        data.forEach(entry => {
-                            // Create a new div element for each entry
-                            const entryDiv = document.createElement('div');
-                            entryDiv.className = 'entry';
+            // Clear previous entries
+            container.innerHTML = '';
 
-                            // Add the content to the div
-                            entryDiv.innerHTML = `
-                                <h3>${entry.name}</h3>
-                                
-                            `;
+            // Check if entries exist and are an array
+            if (data.entries && Array.isArray(data.entries) && data.entries.length > 0) {
+                data.entries.forEach(entry => {
+                    const entryDiv = document.createElement('div');
+                    entryDiv.className = 'entry';
 
-                            if (entry.email)
-                                {
-                                    entryDiv.innerHTML += `<p><strong>Email:</strong> ${entry.email}</p>`;
-                                }
-                                entryDiv.innerHTML += `<p><strong>Project Description:</strong> ${entry.project}</p>`;
-                                if (entry.skills)
-                                {
-                                     entryDiv.innerHTML += `<p><strong>Desired Skills:</strong> ${entry.skills}</p>`;
-                                }
-                                if (entry.members)
-                                {
-                                    entryDiv.innerHTML += `<p><strong>Number of Members:</strong> ${entry.members}</p>`;
-                                }
+                    // Add content to the div based on the new format
+                    entryDiv.innerHTML = `
+                        <h3>${entry.data}</h3>
+                        ${entry.email ? `<p><strong>Email:</strong> ${entry.email}</p>` : ''}
+                        ${entry.project ? `<p><strong>Project Description:</strong> ${entry.project}</p>` : ''}
+                        ${entry.skills ? `<p><strong>Desired Skills:</strong> ${entry.skills}</p>` : ''}
+                    `;
 
-                            // Append the new entry to the container
-                            container.appendChild(entryDiv);
-
-                        });
-                    } else {
-                        console.error('The JSON data is not an array.');
-                    }
-                })
-                .catch(error => {
-                    console.error('Error fetching JSON:', error);
+                    container.appendChild(entryDiv);
                 });
+            } else {
+                // Display message if no entries are available
+                container.innerHTML = '<p>There are currently no projects available. Please check back later.</p>';
+            }
+        })
+        .catch(error => {
+            console.error('Error fetching JSON:', error);
+            const container = document.getElementById('entriesContainer');
+            container.innerHTML = '<p>Error fetching project data. Please try again later.</p>';
         });
+});
+
     </script>
 </body>
 </html>
