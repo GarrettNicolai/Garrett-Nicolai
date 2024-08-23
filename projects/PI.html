@@ -81,14 +81,14 @@ async function submitData() {
 
     
     const name = document.getElementById('name').value;
-    const description = document.getElementById('project').value;
+    const project = document.getElementById('project').value;
     const email = document.getElementById('email').value || "Not specified - contact Garrett"; // Use null if empty
     const skills = document.getElementById('skills').value || "None specified";
     const members = document.getElementById('members').value || "Unspecified";
 
     const newEntry = {
         name: name,
-        description: description,
+        project: project,
         email: email,
         skills: skills,
         members: members
