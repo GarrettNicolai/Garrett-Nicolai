@@ -48,16 +48,23 @@
 
             // Check if entries exist and are an array
             if (data.entries && Array.isArray(data.entries) && data.entries.length > 0) {
-                data.entries.forEach(entry => {
+                data.entries.forEach((entry, index) => {
                     const entryDiv = document.createElement('div');
                     entryDiv.className = 'entry';
 
+                    // Use the index to create "Project X"
+                    const projectNumber = index + 1; // Start counting from 1
+                    const projectTitle = `Project ${projectNumber}`;
+
                     // Add content to the div based on the new format
                     entryDiv.innerHTML = `
-                        <h3>${entry.data}</h3>
+                        <h3>${projectTitle$</h3>
+                        
+                        ${entry.email ? `<p><strong>Project Submitted By</strong> ${entry.name}</p>` : ''}
                         ${entry.email ? `<p><strong>Email:</strong> ${entry.email}</p>` : ''}
                         ${entry.project ? `<p><strong>Project Description:</strong> ${entry.project}</p>` : ''}
                         ${entry.skills ? `<p><strong>Desired Skills:</strong> ${entry.skills}</p>` : ''}
+                        ${entry.members ? `<p><strong>Number of Students required:</strong> ${entry.members}</p>` : ''}
                     `;
 
                     container.appendChild(entryDiv);
